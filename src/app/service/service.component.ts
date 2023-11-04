@@ -27,8 +27,8 @@ export class ServiceComponent implements OnInit {
    getServices(): void {
     this.washService.getAll().subscribe(
       (data:WashingPoint [])=>{
-        console.log(data);
-        
+        // console.log(data);
+        this.washingPoints = data ;
       }
     )
    }

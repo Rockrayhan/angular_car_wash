@@ -1,5 +1,7 @@
 
 <main>
+
+
     <!--? Hero Start -->
     <div class="container-fluid">
         <div class="slider-area2">
@@ -27,6 +29,8 @@
                     </div>
                 </div>
             </div>
+
+           
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
                     <div class="single-card text-center mb-30">
@@ -234,12 +238,15 @@
             </div>
         </div>
     </div>
+
 </main>
 
 <div>
     <ul>
-        <li *ngFor="let point of washingPoints">
-          {{ point.washingPointName }} - {{ point.washingPointAddress }}
+        <li *ngFor="let data of washingPoints">
+          <b>  {{ data.washingPointName }}  </b> 
+          <b>  {{ data.washingPointAddress }} </b>
         </li>
       </ul>
 </div>
+
