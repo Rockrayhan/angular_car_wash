@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-contact',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
+  constructor(private http:HttpClient ){
+  
+  }
+  onSubmit(data:any){
+    this.http.post('http://localhost/angular_project/api/contact.php', data).
+    subscribe(result=>{
+      console.log(result);
+      
+    })
+    console.warn(data);
+  }
 
 }
