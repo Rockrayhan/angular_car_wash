@@ -1,0 +1,6 @@
+li a:hover {
+    /* background-color: aqua; */
+    background-image: linear-gradient(to left, #0BC6FF, #0d80f3, #0BC6FF);
+    color: white !important;
+    font-weight: bold;
+}
