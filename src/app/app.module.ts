@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { BookingComponent } from './booking/booking.component';
 
 
 
@@ -28,7 +29,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     ServiceComponent,
     BlogComponent,
     ContactComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    BookingComponent
   ],
   imports: [
     BrowserModule,

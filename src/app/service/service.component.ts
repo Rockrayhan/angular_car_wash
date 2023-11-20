@@ -32,6 +32,4 @@ export class ServiceComponent implements OnInit {
       }
     )
    }
-      
-    
 }

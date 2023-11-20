@@ -1,0 +1,35 @@
+<div class="container m-5 p-5">
+
+    <h1> Book now for your car wash </h1>
+
+    <form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)">
+        package Type <br>
+        <select name="services" id="" ngModel>
+            <option value="1">Basic Cleaning ($50.00)</option>
+            <option value="2"> Premium Cleaning ($100.00) </option>
+            <option value="3"> Complex Cleaning ($200.00) </option>
+        </select> <br>
+
+        Washing Point <br>
+        <select name="washingPoints" id="" ngModel>
+            <option value="1"> Select Washing Point </option>
+            <option value="2">Basic Cleaning ($50.00)</option>
+            <option value="3"> Premium Cleaning ($100.00) </option>
+            <option value="4"> Complex Cleaning ($200.00) </option>
+        </select> <br>
+
+        <input type="text" name="name" placeholder="Full Name" ngModel> <br> 
+        <input type="text" name="mobile" placeholder="Mobile No." ngModel> <br>
+        Wash Date <br>
+        <input type="date" name="date" ngModel> <br>
+        Wash Time <br>  
+        <input type="time" name="time" ngModel> <br>
+        <textarea class="mb-3" name="" id="" cols="30" rows="10" name="message" placeholder="Give any Message" ngModel></textarea> <br>
+
+        <input  class="btn btn-primary" type="submit" value="submit">
+
+        
+    </form>
+
+
+</div>
