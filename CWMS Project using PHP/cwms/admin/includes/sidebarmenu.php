@@ -40,7 +40,7 @@
 				</a></li>
 
 
-			<li id="menu-academico"><a href="#"><i class="fa fa-files-o" aria-hidden="true"></i><span>Car Washing Booking</span> <span class="fa fa-angle-right" style="float: right"></span>
+			<li id="menu-academico"><a href="all-bookings.php"><i class="fa fa-files-o" aria-hidden="true"></i><span>Car Washing Booking</span> <span class="fa fa-angle-right" style="float: right"></span>
 					<div class="clearfix"></div>
 				</a>
 				<ul id="menu-academico-sub">

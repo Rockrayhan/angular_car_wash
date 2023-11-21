@@ -100,7 +100,7 @@ else{
 					    <table id="table">
 						<thead>
 						  <tr>
-						  <th>Booking No.</th>
+						  <!-- <th>Booking No.</th> -->
 							<th>Name</th>
 							<th width="200">Pacakge Type</th>
 							<th>Washing Point </th>
@@ -121,8 +121,9 @@ if($query->rowCount() > 0)
 {
 foreach($results as $result)
 {				?>		
-						  <tr>
-							<td><?php echo htmlentities($result->bookingId);?></td>
+<tr>
+
+<!-- <td><?php //echo htmlentities($result->bookingId);?></td> -->
 							<td><?php echo htmlentities($result->fullName);?></td>
 								<td width="50">
 								<?php $ptype=$result->packageType;
