@@ -11,7 +11,7 @@ export class ContactComponent {
   
   }
   onSubmit(data:any){
-    this.http.post('http://localhost/angular_project/api/contact.php', data)
+    this.http.post('https://rayhan.wdpf55.com/Angular_project/api/contact.php', data)
     .subscribe(result=>{
       console.log(result)
       if (result){

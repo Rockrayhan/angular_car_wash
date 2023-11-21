@@ -8,7 +8,7 @@ import { WashingPoint } from './washing_points';
 })
 export class WashingPointService {
 
-  baseUrl = 'http://localhost/angular_project/api' ;
+  baseUrl = 'https://rayhan.wdpf55.com/Angular_project/api' ;
 
   constructor(private http: HttpClient) {}
 

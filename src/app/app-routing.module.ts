@@ -7,6 +7,7 @@ import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { BookingComponent } from './booking/booking.component';
+import { APP_BASE_HREF } from '@angular/common';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -20,6 +21,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [{provide: APP_BASE_HREF, useValue: 'https://rayhan.wdpf55.com/Angular_project'}]
 })
 export class AppRoutingModule { }
