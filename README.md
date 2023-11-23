@@ -1,4 +1,6 @@
-# This is a Car Wash Project Build With Angular and PHP
+# This is a Car Wash Project 
+
+### Technologies: Angular, PHP
 
 ### Live Site Link: https://rayhan.wdpf55.com/Angular_project/
 
