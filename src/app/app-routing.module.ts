@@ -22,6 +22,6 @@ const routes: Routes = [
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
-  providers: [{provide: APP_BASE_HREF, useValue: 'https://rayhan.wdpf55.com/Angular_project'}]
+  // providers: [{provide: APP_BASE_HREF, useValue: 'https://rayhan.wdpf55.com/Angular_project'}]
 })
 export class AppRoutingModule { }
